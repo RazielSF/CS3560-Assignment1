@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class StudentGeneratorSingle implements StudentGenerator
 {
-    //Generates random number of students students and answers, generates potentially multiple answers if question is multiple choice 
+    //Generates 30 random students with a random answer 
     public ArrayList<Student> generateStudents(ArrayList<Answer> answerList)
     {
         Random rand1 = new Random();
